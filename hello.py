@@ -19,8 +19,8 @@ headers_autenticacao = {
     "content-type": "application/json"
 }
 payload = {
-    "email": "romualdomr.c@gmail.com",
-    "password": "32343040"
+    "email": "XXXXXXX",
+    "password": "XXXXXX"
 }
 
 response = requests.post(url_autenticacao, headers=headers_autenticacao, json=payload)
